@@ -1,0 +1,646 @@
+.container {
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  padding-top: 44px;
+  padding-bottom: 111px;
+  flex-direction: column;
+  overflow: hidden;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  max-width: 1316px;
+  align-items: stretch;
+  gap: 20px;
+  font-size: 24px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.logo {
+  color: rgba(0, 0, 0, 1);
+  font-family: var(--font-inter);
+  font-weight: 400;
+  align-self: flex-start;
+}
+
+.navigation {
+  display: flex;
+  align-items: stretch;
+  gap: 40px 100px;
+  font-family:
+    "Open Sans",
+    -apple-system,
+    Roboto,
+    Helvetica,
+    sans-serif;
+  color: rgba(38, 38, 38, 1);
+  font-weight: 600;
+  flex-wrap: wrap;
+}
+
+.navLinkActive {
+  font-weight: 800;
+}
+
+.navLink {
+  cursor: pointer;
+}
+
+.backgroundSection {
+  background-color: rgba(248, 248, 248, 1);
+  align-self: stretch;
+  display: flex;
+  margin-top: 35px;
+  width: 100%;
+  padding-top: 118px;
+  padding-bottom: 270px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sectionTitle {
+  color: rgba(38, 38, 38, 1);
+  font-size: 64px;
+  font-family: var(--font-poppins);
+  font-weight: 600;
+  text-align: center;
+}
+
+.contentGrid {
+  align-self: stretch;
+  margin-top: 138px;
+}
+
+.gridRow {
+  gap: 20px;
+  display: flex;
+}
+
+.leftColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  line-height: normal;
+  width: 41%;
+  margin-left: 0;
+}
+
+.visualDataContainer {
+  display: flex;
+  margin-top: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.visualData {
+  display: flex;
+  width: 429px;
+  max-width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  aspect-ratio: 2.06;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+}
+
+.tallImage {
+  aspect-ratio: 0.71;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  align-self: stretch;
+  margin-top: 30px;
+}
+
+.wideImage {
+  aspect-ratio: 4.93;
+  object-fit: contain;
+  object-position: center;
+  width: 533px;
+  margin-top: 40px;
+  max-width: 100%;
+}
+
+.rightColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  line-height: normal;
+  width: 59%;
+  margin-left: 20px;
+}
+
+.rightColumnContent {
+  width: 100%;
+}
+
+.largeImage {
+  aspect-ratio: 1.83;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+}
+
+.iconGrid {
+  display: flex;
+  margin-top: 60px;
+  margin-left: 13px;
+  margin-right: 11px;
+  align-items: flex-start;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.iconGroup {
+  display: flex;
+  margin-top: 7px;
+  align-items: stretch;
+  gap: 4px;
+}
+
+.icon {
+  aspect-ratio: 0.53;
+  object-fit: contain;
+  object-position: center;
+  width: 32px;
+  flex-shrink: 0;
+}
+
+.roundIcon {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 49px;
+  align-self: flex-start;
+  margin-top: 12px;
+  flex-shrink: 0;
+}
+
+.iconGroup2 {
+  display: flex;
+  margin-top: 19px;
+  align-items: flex-start;
+  gap: 9px;
+}
+
+.icon2 {
+  aspect-ratio: 0.94;
+  object-fit: contain;
+  object-position: center;
+  width: 45px;
+  flex-shrink: 0;
+}
+
+.tallIcon {
+  aspect-ratio: 0.7;
+  object-fit: contain;
+  object-position: center;
+  width: 50px;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+
+.iconGroup3 {
+  display: flex;
+  margin-top: 7px;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.stretchIcon {
+  aspect-ratio: 0.53;
+  object-fit: contain;
+  object-position: center;
+  width: 32px;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+
+.iconGroup4 {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.centerIcon {
+  aspect-ratio: 0.56;
+  object-fit: contain;
+  object-position: center;
+  width: 27px;
+  align-self: stretch;
+  margin-top: auto;
+  margin-bottom: auto;
+  flex-shrink: 0;
+}
+
+.thinIcon {
+  aspect-ratio: 0.21;
+  object-fit: contain;
+  object-position: center;
+  width: 14px;
+  align-self: flex-start;
+  flex-shrink: 0;
+}
+
+.bottomImage {
+  aspect-ratio: 1.34;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  margin-top: 37px;
+}
+
+.description {
+  color: rgba(96, 96, 96, 1);
+  font-size: 28px;
+  font-family:
+    "Open Sans",
+    -apple-system,
+    Roboto,
+    Helvetica,
+    sans-serif;
+  font-weight: 600;
+  line-height: 45px;
+  text-align: center;
+  margin-top: 210px;
+  margin-bottom: -54px;
+  width: 1000px;
+}
+
+.experiencesSection {
+  display: flex;
+  margin-top: 115px;
+  width: 100%;
+  max-width: 1186px;
+  flex-direction: column;
+  align-items: stretch;
+  font-family:
+    "Open Sans",
+    -apple-system,
+    Roboto,
+    Helvetica,
+    sans-serif;
+  font-size: 48px;
+  color: rgba(0, 0, 0, 1);
+  font-weight: 700;
+}
+
+.sectionHeading {
+  align-self: flex-start;
+  margin-left: 13px;
+}
+
+.videoContainer {
+  display: flex;
+  margin-top: 80px;
+  align-items: center;
+  gap: 13px;
+  font-family: var(--font-poppins);
+  font-size: 24px;
+  color: #000000;
+  font-weight: 600;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.arrowIcon {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 48px;
+  align-self: stretch;
+  margin-top: auto;
+  margin-bottom: auto;
+  flex-shrink: 0;
+}
+
+.videoWrapper {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  position: relative;
+  min-height: 645px;
+}
+
+.videoBackground {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.videoPlaceholder {
+  position: relative;
+  background-color: rgba(217, 217, 217, 1);
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 309px;
+  padding-bottom: 245px;
+}
+
+.storiesHeading {
+  align-self: flex-start;
+  margin-top: 139px;
+  margin-left: 13px;
+}
+
+.videoPlaceholder2 {
+  background-color: rgba(217, 217, 217, 1);
+  align-self: stretch;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 309px;
+  padding-bottom: 309px;
+}
+
+.businessSection {
+  background-color: rgba(248, 248, 248, 1);
+  align-self: stretch;
+  display: flex;
+  margin-top: 235px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 88px;
+  padding-bottom: 88px;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--font-poppins);
+  font-weight: 600;
+  text-align: center;
+  justify-content: center;
+}
+
+.businessContainer {
+  display: flex;
+  width: 361px;
+  max-width: 100%;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.businessTitle {
+  color: rgba(38, 38, 38, 1);
+  font-size: 40px;
+}
+
+.emailContainer {
+  align-self: center;
+  display: flex;
+  margin-top: 36px;
+  width: 279px;
+  max-width: 100%;
+  align-items: stretch;
+  gap: 18px;
+  font-size: 24px;
+  color: rgba(0, 0, 0, 1);
+  white-space: nowrap;
+}
+
+.emailIcon {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 38px;
+  flex-shrink: 0;
+}
+
+.emailText {
+  align-self: flex-start;
+  flex-grow: 1;
+  flex-shrink: 1;
+  width: 215px;
+}
+
+.footer {
+  display: flex;
+  margin-top: 110px;
+  width: 100%;
+  max-width: 1143px;
+  align-items: stretch;
+  gap: 40px 100px;
+  flex-wrap: wrap;
+}
+
+.footerLogo {
+  color: rgba(0, 0, 0, 1);
+  font-size: 24px;
+  font-family: var(--font-inter);
+  font-weight: 800;
+  margin-top: auto;
+  margin-bottom: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  width: 243px;
+}
+
+.footerColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family:
+    "Open Sans",
+    -apple-system,
+    Roboto,
+    Helvetica,
+    sans-serif;
+  font-size: 16px;
+  color: rgba(39, 45, 44, 1);
+  font-weight: 400;
+}
+
+.footerHeading {
+  color: rgba(38, 38, 38, 1);
+  font-size: 20px;
+  font-family: var(--font-poppins);
+  font-weight: 500;
+  align-self: stretch;
+}
+
+.footerLink {
+  margin-top: 17px;
+  cursor: pointer;
+}
+
+.footerLinkSubsequent {
+  margin-top: 12px;
+  cursor: pointer;
+}
+
+.socialContainer {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.socialHeading {
+  color: rgba(38, 38, 38, 1);
+  font-size: 20px;
+  font-family: var(--font-poppins);
+  font-weight: 500;
+  align-self: flex-start;
+}
+
+.socialIcons {
+  display: flex;
+  margin-top: 20px;
+  align-items: flex-start;
+  gap: 16px;
+  justify-content: flex-start;
+}
+
+.socialIcon {
+  background-color: rgba(217, 217, 217, 1);
+  border-radius: 50%;
+  display: flex;
+  width: 40px;
+  flex-shrink: 0;
+  height: 40px;
+}
+
+@media (max-width: 991px) {
+  .container {
+    padding-bottom: 100px;
+  }
+
+  .header {
+    max-width: 100%;
+  }
+
+  .navigation {
+    max-width: 100%;
+  }
+
+  .backgroundSection {
+    max-width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .sectionTitle {
+    max-width: 100%;
+    font-size: 40px;
+  }
+
+  .contentGrid {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+
+  .gridRow {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+  }
+
+  .leftColumn {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .visualDataContainer {
+    max-width: 100%;
+  }
+
+  .tallImage {
+    max-width: 100%;
+  }
+
+  .rightColumn {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .rightColumnContent {
+    max-width: 100%;
+  }
+
+  .largeImage {
+    max-width: 100%;
+  }
+
+  .iconGrid {
+    max-width: 100%;
+    margin-right: 10px;
+    margin-top: 40px;
+  }
+
+  .bottomImage {
+    max-width: 100%;
+  }
+
+  .description {
+    max-width: 100%;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+
+  .experiencesSection {
+    max-width: 100%;
+    margin-top: 40px;
+    font-size: 40px;
+  }
+
+  .sectionHeading {
+    max-width: 100%;
+    font-size: 40px;
+  }
+
+  .videoContainer {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+
+  .videoWrapper {
+    max-width: 100%;
+  }
+
+  .videoPlaceholder {
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 100px;
+    padding-bottom: 110px;
+  }
+
+  .storiesHeading {
+    max-width: 100%;
+    margin-top: 40px;
+    font-size: 40px;
+  }
+
+  .videoPlaceholder2 {
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .businessSection {
+    max-width: 100%;
+    margin-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .emailContainer {
+    white-space: initial;
+  }
+
+  .footer {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}

@@ -1,0 +1,262 @@
+/* Header Styles */
+.header {
+  padding: 20px 40px;
+  background-color: #fff;
+}
+
+.headerContainer {
+  display: flex;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logoLink {
+  text-decoration: none;
+  color: #000;
+  font-family: var(--font-inter);
+  font-size: 16px;
+}
+
+.navigation {
+  display: flex;
+  gap: 40px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #000;
+  font-family: var(--font-inter);
+  font-size: 16px;
+}
+
+/* Main Content Styles */
+.mainContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.pageTitle {
+  font-family: var(--font-inter);
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.videoPreview {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 40px;
+  background-color: #e5e5e5;
+}
+
+/* Testimonial Styles */
+.testimonialContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.testimonialItem {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.testimonialImage {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.testimonialText {
+  font-family: var(--font-inter);
+  color: #666;
+  font-size: 14px;
+}
+
+/* Description Styles */
+.description {
+  font-family: var(--font-inter);
+  color: #333;
+  margin-bottom: 60px;
+  line-height: 1.6;
+}
+
+/* How It Works Section */
+.howItWorksSection {
+  margin-bottom: 60px;
+}
+
+.sectionTitle {
+  font-family: var(--font-inter);
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.stepsList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.stepItem {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.stepText {
+  font-family: var(--font-inter);
+  color: #333;
+}
+
+/* Class Preview Section */
+.classPreviewSection {
+  margin-bottom: 60px;
+}
+
+.classPreviewVideo {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 30px;
+  background-color: #e5e5e5;
+}
+
+.previewDescription {
+  font-family: var(--font-inter);
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.bookButton {
+  color: #fff;
+  padding: 12px 24px;
+  font-family: var(--font-inter);
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #000;
+  border: none;
+}
+
+/* Footer Styles */
+.footer {
+  padding: 60px 40px;
+  margin-top: 60px;
+  background-color: #fff;
+}
+
+.footerLogo {
+  font-family: var(--font-inter);
+  margin-bottom: 40px;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footerColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footerHeading {
+  font-family: var(--font-poppins);
+  font-size: 20px;
+  color: #262626;
+}
+
+.footerLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footerLink {
+  color: #272d2c;
+  opacity: 0.6;
+  text-decoration: none;
+  font-family:
+    "Open Sans",
+    -apple-system,
+    Roboto,
+    Helvetica,
+    sans-serif;
+  font-size: 16px;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 16px;
+}
+
+.socialIcon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+}
+
+/* Navigation Buttons */
+.navigationButtons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin: 32px 0;
+}
+
+.prevButton {
+  padding: 12px 24px;
+  background: #a3a3a3;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.nextButton {
+  padding: 12px 24px;
+  background: #4f46e5;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Media Queries */
+@media (max-width: 991px) {
+  .headerContainer {
+    flex-wrap: wrap;
+  }
+
+  .mainContent {
+    padding: 20px;
+  }
+
+  .footerContent {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 640px) {
+  .navigation {
+    display: none;
+  }
+
+  .testimonialContainer {
+    gap: 30px;
+  }
+
+  .footerContent {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
