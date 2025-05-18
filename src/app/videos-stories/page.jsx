@@ -6,19 +6,6 @@ import styles from "./styles.module.css";
 export default function VideosStoriesPage() {
   return (
     <div className={styles.container}>
-      <div className={styles.header}>
-        <div className={styles.logo}>From Somewhere Else</div>
-        <div className={styles.navigation}>
-          <div className={`${styles.navLink} ${styles.navLinkActive}`}>
-            Videos & Stories
-          </div>
-          <Link href="/my-lessons" className={styles.navLink}>
-            My Lessons
-          </Link>
-          <div className={styles.navLink}>Get in Touch</div>
-        </div>
-      </div>
-
       <div className={styles.backgroundSection}>
         <div className={styles.sectionTitle}>Videos & Stories</div>
         <div className={styles.contentGrid}>

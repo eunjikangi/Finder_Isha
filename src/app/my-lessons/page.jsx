@@ -6,25 +6,6 @@ import styles from "./styles.module.css";
 export default function MyLessonsPage() {
   return (
     <>
-      <header className={styles.header}>
-        <div className={styles.headerContainer}>
-          <Link href="/" className={styles.logoLink}>
-            From Somewhere Else
-          </Link>
-          <nav className={styles.navigation}>
-            <Link href="/videos-stories" className={styles.navLink}>
-              Videos &amp; Stories
-            </Link>
-            <Link href="/my-lessons" className={styles.navLink}>
-              My Lessons
-            </Link>
-            <Link href="#" className={styles.navLink}>
-              Get in Touch
-            </Link>
-          </nav>
-        </div>
-      </header>
-
       <main className={styles.mainContent}>
         <h1 className={styles.pageTitle}>My Lessons</h1>
 

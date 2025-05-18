@@ -6,21 +6,6 @@ import styles from "./styles.module.css";
 export default function HomePage() {
   return (
     <div className={styles.container}>
-      <header className={styles.header}>
-        <div className={styles.headerContent}>
-          <div className={styles.logo}>From Somewhere Else</div>
-          <nav className={styles.navigation}>
-            <Link href="/videos-stories" className={styles.navItem}>
-              Videos &amp; Stories
-            </Link>
-            <Link href="/my-lessons" className={styles.navItem}>
-              My Lessons
-            </Link>
-            <div className={styles.navItem}>Get in Touch</div>
-          </nav>
-        </div>
-      </header>
-
       <section className={styles.heroSection}>
         <div className={styles.heroContent}>
           <div className={styles.heroTitle}>Great design is invisible</div>
